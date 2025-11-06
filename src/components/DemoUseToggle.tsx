@@ -1,7 +1,7 @@
+import useToggle from "../hooks/useToggle";
 import React from "react";
-import useToggle from "./hooks/useToggle";
 
-const DemoUseToggle = () => {
+const DemoUseToggle: React.FC = () => {
   const [value, toggle, setTrue, setFalse] = useToggle({ initVal: false });
   return (
     <>
